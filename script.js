@@ -1,6 +1,6 @@
   var date = new Date();
   var time = date.toLocaleString("en-CA");
-  var day = date.getDate();
+  var day = date.getDate().toLocaleString("en-CA");
   var month = date.getMonth();
 console.log(time);
 if (day ==  21 && month == 8) {
