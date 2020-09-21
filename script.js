@@ -1,8 +1,8 @@
   var date = new Date();
   var time = date.toLocaleString("en-CA");
-  var day = time.getDate();
-  var month = time.getMonth();
-
+  var day = date.getDate();
+  var month = date.getMonth();
+console.log(time);
 if (day ==  21 && month == 8) {
     document.getElementById("H").innerHTML = "<h1>Happy birthday αqualine!</h1>"
     document.title = "Happy birthday!";
