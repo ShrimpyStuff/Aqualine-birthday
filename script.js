@@ -1,4 +1,5 @@
-  var time = Date.toLocaleString("en-US", {timeZone: "America/New_York"});
+  var TDate = new Date();
+  var time = TDate.toLocaleString("en-CA", {timeZone: "Canada/Toronto"});
   var day = time.getDate();
   var month = time.getMonth();
 
